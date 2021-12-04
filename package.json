@@ -1,0 +1,24 @@
+{
+  "name": "kablosuzkedi-rabbitmq-nodejs",
+  "version": "1.0.0",
+  "description": "A project coded by @kablosuzkedi YouTube channel to introduce RabbitMQ.",
+  "main": "index.js",
+  "scripts": {
+    "publisher": "node publisher.js",
+    "consumer": "node consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isakilikya/kablosuzkedi-rabbitmq-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isakilikya/kablosuzkedi-rabbitmq-nodejs/issues"
+  },
+  "homepage": "https://github.com/isakilikya/kablosuzkedi-rabbitmq-nodejs#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
